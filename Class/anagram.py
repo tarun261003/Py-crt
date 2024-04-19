@@ -1,10 +1,10 @@
 def anagram_check(s1,s2):
     if len(s1)!=len(s2):
         return False
-    l1,l2=list(s1),list(s2)
-    l1.sort()
-    l2.sort()
-    return l1==l2
+    for i in s1:
+        if i not in s2:
+            return False
+    return True
 if __name__=="__main__":
     s1=input('Enter string 1:')
     s2=input('Enter string 2:')
