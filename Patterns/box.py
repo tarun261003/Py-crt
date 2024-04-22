@@ -4,7 +4,7 @@ def return_number(i,j):
     elif i==n-1 and j==n-1:
         return 1
     else:
-        return '*'
+        return '* '
 n=int(input('Enter the size:'))
 for i in range(2*n-1):
     for j in range(2*n-1):
