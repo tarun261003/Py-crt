@@ -10,4 +10,10 @@
 #     for j in range(2*n-1):
 #         print(return_number(i,j),end=' ')
 #     print()
-
+def get_number(n,i,j):
+    return min(i,j,n-i-1,n-j-1)
+n=int(input('Enter the size :'))
+for i in range(2*n-1):
+    for j in range(2*n-1):
+        print(get_number(n,i,j),end=' ')
+    print()
