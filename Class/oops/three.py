@@ -11,7 +11,7 @@ class BankAccount:
         else:
             return 'Insufficient Funds'
     def display_balance(self):
-        return f'The balnce is :{self.balance}'
+        return f'The balnce is :₹{self.balance}'
 instance=BankAccount('tarun',5545)
 print(f'Welcome {instance.owner}')
 print('How can I help you?\n1.Deposit\n2.Withdraw\n3.Display\n4.Exit')
