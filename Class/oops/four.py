@@ -20,5 +20,5 @@ if __name__=="__main__":
     z2=complex(c,d)
     com=Complex(z1,z2)
     print(f'The addition of "{z1}" and "{z2}" is "{com.add_complex()}"')
-    print(f'The subtraction of "{z1}" and {z2} is "{com.subtract_complex()}')
+    print(f'The subtraction of "{z1}" and "{z2}" is "{com.subtract_complex()}')
     print(f'The product of "{z1}" and "{z2}" is "{com.product_complex()}"')
